@@ -25,4 +25,4 @@ For comprehensive details, refer to the [Pyglet Official Documentation](https://
 
 ---
 
-Feel free to explore the code samples and notes in this repository as I continue to learn and
+Feel free to explore the code samples and notes in this repository as I continue to learn
