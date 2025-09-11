@@ -11,6 +11,12 @@ def on_mouse_press(x,y,button,modifiers):
         print("Middle")
     elif button == mouse.RIGHT:
         print("Right")
-        
+    
+    
+'''
+There are more than 20 event types that you can handle on a window. An easy way to find the event names and parameters you need is to add the following lines to your program:
+'''
+event_logger = pyglet.window.event.WindowEventLogger()
+window.push_handlers(event_logger)
         
 pyglet.app.run()
